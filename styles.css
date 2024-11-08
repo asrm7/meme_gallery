@@ -1,0 +1,73 @@
+/* General styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main title styling */
+.main-title h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    border-bottom: 4px solid #ada890; 
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Gallery styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    
+}
+
+/* Meme container styling */
+.meme {
+    
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+/* Meme images styling */
+.meme img {
+    border: 5px solid #FFD700; /* Golden color border */
+    width: 300px;
+    height: 230px;
+    display: block;
+    object-fit: cover;
+}
+
+/* Imagens titles styling */
+.title{
+    color: #FFD700; /* Golden color */
+
+}
+/* Caption styling */
+.caption {
+    max-width: 300px;
+    font-size: 1rem;
+    color: #fcfcfb;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Hover effects */
+.meme:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 5px rgba(255, 215, 0, 0.8); /* Glow effect in golden */
+}
